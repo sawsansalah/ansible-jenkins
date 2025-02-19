@@ -4,7 +4,7 @@
   become: yes
   tasks:
     - name: Install Nginx
-      ansible.builtin.apt:
+      apt:
         name: nginx
         state: present
 
